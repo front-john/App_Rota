@@ -30,7 +30,7 @@ nav {
 }
 
 .botoes_rota {
-    text-align: center;
+    text-decoration: none;
     font-size: 20px;
     color: #FFF;
     border-radius: 12px;
