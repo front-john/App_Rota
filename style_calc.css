@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#logo {
+    width: 100px;
+}
+
+p{
+    color: #2A3790;
+    font-size: 18px;
+}
+
+#valor{
+    border-radius: 10px;
+    padding: 10px;
+    width: 95vw;
+    height: 8vh;
+    border: 5px #2A3790 solid ;
+    text-align: end;
+    font-size: 20px;
+}
+
+
+
+
+
+/*-----------------------------------------------------------------*/
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    gap: 10px;
+}
+
+
+
+
+/*-----------------------------------------------------------------*/
+
+#secao_teclado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    
+}
+
+.botoes {
+    text-align: center;
+    width: 18vw;
+    height:18vw;
+    font-size: 50px;
+    color: #FFF;
+    border-radius: 100px;
+    background-color: #2A3790;
+    border-style: none;
+    box-shadow: 3px 3px rgba(12, 12, 12, 0.3);
+}
+
+
+/* ------------------------------------------------------------------ */
+
+#secao_operadores {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#mais_um{
+    color: #fff;
+    background-color: #c70909;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: 3px 3px rgba(12, 12, 12, 0.3);
+}
+
+#menos{
+    color: #fff;
+    background-color: #2A3790;
+    font-size: 80px;
+    text-align: center;
+    justify-content: center;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 3px 3px rgba(12, 12, 12, 0.3);
+}
+
+#mais{
+    color: #fff;
+    background-color: #2A3790;
+    font-size: 80px;
+    text-align: center;
+    justify-content: center;
+    width: 25vw;
+    height: 59vw;
+    border-radius: 10px;border-style: none;
+    box-shadow: 3px 3px rgba(12, 12, 12, 0.3);
+
+}
+
+
+
+
+
+
+
+/* ---------------------------------------------------- */
+#secao_concluir {
+    display: flex;
+    justify-content: center;
+    margin-top: 3.5vh;
+}
+
+#concluir {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size:40px;
+    background-color: #069b26;
+    width: 95vw;
+    height: 12vh;
+    border-radius: 12px;
+    border-style: none;
+    box-shadow: 3px 3px rgba(12, 12, 12, 0.3);
+}
