@@ -75,7 +75,7 @@ main{
     text-align: center;
     width: 18vw;
     height:18vw;
-    font-size: 50px;
+    font-size: 40px;
     color: #FFF;
     border-radius: 100px;
     background-color: #2A3790;
@@ -150,8 +150,8 @@ main{
     color: #fff;
     font-size:40px;
     background-color: #069b26;
-    width: 95vw;
-    height: 12vh;
+    width: 93vw;
+    height: 10vh;
     border-radius: 20px;
     border-style: none;
     box-shadow: 3px 3px rgba(12, 12, 12, 0.3);
