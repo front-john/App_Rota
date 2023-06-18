@@ -29,6 +29,11 @@ nav {
     gap: 15px;
 }
 
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+
 .botoes_rota {
     text-decoration: none;
     font-size: 20px;
