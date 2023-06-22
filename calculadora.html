@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rotas - Cálculo</title>
     <link rel="stylesheet" href="style_calc.css">
+    <script src="/script.js"></script>
 </head>
 
 <body>
@@ -16,7 +17,7 @@
 
         <section id="mostrador">
             <p id="contador"><b>12</b></p>
-            <p id="resultado"><b>R$ 453,25</b></p>
+            <p id="resultado"><b></b></p>
         </section>
     
     </nav>
@@ -24,20 +25,20 @@
     <main>
         
         <section id="secao_teclado">
-            <button class="botoes" id="trash"><img src="/Images/trash_icon.png" alt="trash" width="30px"></button>
-            <button class="botoes" id="clear"> <img src="/Images/clear_icon.png" alt="clear" width="34px"> </button>
+            <button class="botoes" id="trash"><img src="/Images/trash_icon.png" alt="trash" width="30px" onclick="clean()"></button>
+            <button class="botoes" id="clear"> <img src="/Images/clear_icon.png" alt="clear" width="30px" onclick="back()"> </button>
             <button class="botoes"></button>
-            <button class="botoes" id="numeros">1</button>
-            <button class="botoes" id="numeros">2</button>
-            <button class="botoes" id="numeros">3</button>
-            <button class="botoes" id="numeros">4</button>
-            <button class="botoes" id="numeros">5</button>
-            <button class="botoes" id="numeros">6</button>
-            <button class="botoes" id="numeros">7</button>
-            <button class="botoes" id="numeros">8</button>
-            <button class="botoes" id="numeros">9</button>
-            <button class="botoes" id="numeros"></button>
-            <button class="botoes" id="numeros">0</button>
+            <button class="botoes" id="numeros" onclick="insert('1')">1</button>
+            <button class="botoes" id="numeros" onclick="insert('2')">2</button>
+            <button class="botoes" id="numeros" onclick="insert('3')">3</button>
+            <button class="botoes" id="numeros" onclick="insert('4')">4</button>
+            <button class="botoes" id="numeros" onclick="insert('5')">5</button>
+            <button class="botoes" id="numeros" onclick="insert('6')">6</button>
+            <button class="botoes" id="numeros" onclick="insert('7')">7</button>
+            <button class="botoes" id="numeros" onclick="insert('8')">8</button>
+            <button class="botoes" id="numeros" onclick="insert('9')">9</button>
+            <button class="botoes" id="numeros" onclick="insert('')"></button>
+            <button class="botoes" id="numeros" onclick="insert('0')">0</button>
             <button class="botoes" id="numeros">.</button>
         </section>
 
