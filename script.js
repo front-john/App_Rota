@@ -75,3 +75,7 @@ const addSameValue = () => {
   count++
   setOutput()
 }
+
+total.value=document.getElementById('total').innerText
+
+alert('total')

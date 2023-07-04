@@ -72,11 +72,20 @@ nav {
 }
 
 #resultado{
+    font-weight: bold;
     color: #2A3790;
     font-size: 30px;
+    width: 90%;
+    text-align: end;
+    background-color: #FFF;
+    border: none;
 }
 
-
+#real{
+    color: #2A3790;
+    font-size: 30px;
+    margin-left: 8px;
+}
 
 /*-----------------------------------------------------------------*/
 
