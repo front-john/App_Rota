@@ -16,8 +16,9 @@
         <p id="cidade"><b><i>(Nome da Rota -- Beta)</i></b></p>
 
         <section id="mostrador">
-            <p id="contador"><b>12</b></p>
-            <p id="resultado"><b></b></p>
+            <p id="contador"><b>0</b></p>
+            <!-- <p><b id="resultado">0</b></p> -->
+            <input type="number" name="" id="resultado" value="0" disabled>
         </section>
     
     </nav>
@@ -26,7 +27,7 @@
         
         <section id="secao_teclado">
             <button class="botoes" id="trash"><img src="/Images/trash_icon.png" alt="trash" width="30px" onclick="clean()"></button>
-            <button class="botoes" id="clear"> <img src="/Images/clear_icon.png" alt="clear" width="30px" onclick="back()"> </button>
+            <button class="botoes" id="clear"> <img src="/Images/clear_icon.png" alt="clear" width="30px" onclick="back()" on=""> </button>
             <button class="botoes"></button>
             <button class="botoes" id="numeros" onclick="insert('1')">1</button>
             <button class="botoes" id="numeros" onclick="insert('2')">2</button>
@@ -39,13 +40,13 @@
             <button class="botoes" id="numeros" onclick="insert('9')">9</button>
             <button class="botoes" id="numeros" onclick="insert('')"></button>
             <button class="botoes" id="numeros" onclick="insert('0')">0</button>
-            <button class="botoes" id="numeros">.</button>
+            <button class="botoes" id="numeros" onclick="insert(',')">,</button>
         </section>
 
         <section id="secao_operadores">
-            <button id="mais_um"><b>+ 1 de mesmo valor</b></button>
-            <button id="menos">-</button>
-            <button id="mais">+</button>
+            <button id="mais_um" onclick="addSameValue()"><b>+ 1 de mesmo valor</b></button>
+            <button id="menos" onclick="insert('-')">-</button>
+            <button id="mais" onclick="sum()">+</button>
 
         </section>
         
