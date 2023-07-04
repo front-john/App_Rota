@@ -2,6 +2,8 @@ let total = 0
 let currentInput = 0
 let count = 0
 
+
+
 function insert(num) {
   const numero = document.getElementById('resultado');
 
@@ -30,7 +32,7 @@ const setErrorMessage = (message) => {
 
 const setOutput = () => {
   // document.getElementById('total').innerText = total
-  console.log("total", total);
+  document.getElementById('total').innerText = total;
   document.getElementById('contador').innerText = count
   document.getElementById('resultado').value = 0
 }
@@ -76,6 +78,4 @@ const addSameValue = () => {
   setOutput()
 }
 
-total.value=document.getElementById('total').innerText
 
-alert('total')
