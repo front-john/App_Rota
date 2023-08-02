@@ -27,6 +27,7 @@ nav {
 #logo {
     padding: 10px;
     width: 180px;
+    filter: drop-shadow(2px 3px 4px rgba(0,0,0,0.2));
 }
 
 #cidade{
@@ -34,18 +35,24 @@ nav {
     font-size: 18px;
 }
 
+#teste_total{
+    display: flex;
+    
+
+}
+
+.teste{
+    background-color: #2A3790;
+    border: none;
+    width: 20vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+}
 
 
-
-/* .valor{
-    border-radius: 18px;
-    padding: 10px;
-    width: 95vw;
-    height: 8vh;
-    border: 5px #2A3790 solid ;
-    text-align: end;
-    font-size: 20px;
-} */
 
 #mostrador{
     justify-content: space-between;
@@ -79,12 +86,14 @@ nav {
     text-align: end;
     background-color: #FFF;
     border: none;
+    
 }
 
 #real{
     color: #2A3790;
     font-size: 30px;
     margin-left: 8px;
+    
 }
 
 /*-----------------------------------------------------------------*/
@@ -118,7 +127,8 @@ main{
     border-radius: 100px;
     background-color: #2A3790;
     border-style: none;
-    box-shadow: 3px 3px rgba(12, 12, 12, 0.3);
+    filter: drop-shadow(2px 3px 4px rgba(0,0,0,0.5));
+    
 }
 
 
@@ -138,7 +148,7 @@ main{
     height: 25vw;
     border-radius: 20px;
     border-style: none;
-    box-shadow: 3px 3px rgba(12, 12, 12, 0.3);
+    filter: drop-shadow(2px 3px 4px rgba(0,0,0,0.5));
 }
 
 #menos{
@@ -149,7 +159,7 @@ main{
     height: 25vw;
     border-radius: 20px;
     border-style: none;
-    box-shadow: 3px 3px rgba(12, 12, 12, 0.3);
+    filter: drop-shadow(2px 3px 4px rgba(0,0,0,0.5));
 }
 
 #mais{
@@ -162,7 +172,7 @@ main{
     height: 59vw;
     border-radius: 20px;
     border-style: none;
-    box-shadow: 3px 3px rgba(12, 12, 12, 0.3);
+    filter: drop-shadow(2px 3px 4px rgba(0,0,0,0.5));
 
 }
 
@@ -193,7 +203,7 @@ main{
     height: 10vh;
     border-radius: 20px;
     border-style: none;
-    box-shadow: 3px 3px rgba(12, 12, 12, 0.3);
+    filter: drop-shadow(2px 3px 4px rgba(0,0,0,0.5));
 }
 
 a{
@@ -213,7 +223,7 @@ a{
     height: 10vh;
     border-radius: 20px;
     border-style: none;
-    box-shadow: 3px 3px rgba(12, 12, 12, 0.3);
+    filter: drop-shadow(2px 3px 4px rgba(0,0,0,0.5));
     margin-bottom: 20px;
 }
 

@@ -12,7 +12,11 @@
 <body>
     <nav>
         <img id="logo" src="/Images/logo.png" alt="logo">
-        <p id="total"></p>
+
+        <div id="teste_total">
+            <p class="teste">Total:</p>
+            <p id="total" class="teste"></p>
+        </div>
 
         <p id="cidade"><b><i></i></b></p>
 
@@ -22,14 +26,16 @@
             <!-- <p><b id="resultado">0</b></p> -->
             <input type="number" name="" id="resultado" value="0" disabled>
         </section>
-    
+
     </nav>
 
     <main>
-        
+
         <section id="secao_teclado">
-            <button class="botoes" id="trash"><img src="/Images/trash_icon.png" alt="trash" width="30px" onclick="clean()"></button>
-            <button class="botoes" id="clear"> <img src="/Images/clear_icon.png" alt="clear" width="30px" onclick="back()" on=""> </button>
+            <button class="botoes" id="trash"><img src="/Images/trash_icon.png" alt="trash" width="30px"
+                    onclick="clean()"></button>
+            <button class="botoes" id="clear"> <img src="/Images/clear_icon.png" alt="clear" width="30px"
+                    onclick="back()" on=""> </button>
             <button class="botoes"></button>
             <button class="botoes" id="numeros" onclick="insert('1')">1</button>
             <button class="botoes" id="numeros" onclick="insert('2')">2</button>
@@ -51,7 +57,7 @@
             <button id="mais" onclick="sum()">+</button>
 
         </section>
-        
+
     </main>
 
     <section id="secao_concluir">
@@ -61,7 +67,7 @@
 
 
     <footer>
-    Desenvolvido por Jonathan Costa.
+        Desenvolvido por Jonathan Costa.
     </footer>
 </body>
 
